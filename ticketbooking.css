@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    padding: 0;
+    background: url(pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 750px;
+    background-position: up;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    position:absolute;
+    top:0%;
+    width: 1536px;
+    
+    background-size: 100px;
+    
+    background: black;
+    border-width: 32px;
+}
+.navbar p{
+    color:white;
+    text-align: right;
+}
+.navbar h1{
+    color:white;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.navbar h3{
+    color:white;
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.detailbox{
+    width: 320px;
+    height: fit-content;
+    background: black;
+    color: white;
+    top: 30%;
+    left: 15%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0px 30px;
+    border-radius: 5%;
+}
+ h2{
+    font-size: 26px;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight : normal;
+    color : white;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    color: yellow;
+    text-decoration: none;
+
+}
+.detailbox p{
+    font-weight: normal;
+    font-size: 20px;
+    color:white;
+}
+.detailbox input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.detailbox select
+{
+    outline: none;
+    height: 25px;
+    color: black;
+    font-size: 18px; 
+}
+.detailbox input[type="date"]
+{
+    margin-bottom: 5px;
+    height:25px;
+}
+.detailbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom:25px;
+}
+.detailbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: red;
+    color: white;
+}
